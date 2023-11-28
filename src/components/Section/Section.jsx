@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
 
-
 export const Section = ({ title, children }) => (
   <section>
-    <h2>{title}</h2>
+    <h2>{(title = 'Please leave feedback')}</h2>
     {children}
   </section>
 );
