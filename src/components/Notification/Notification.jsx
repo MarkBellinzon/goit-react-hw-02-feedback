@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 
 export const Notification = ({message}) => (
-    <p className={s.notification__text}>
+    <p>
         {message}
     </p>
 )

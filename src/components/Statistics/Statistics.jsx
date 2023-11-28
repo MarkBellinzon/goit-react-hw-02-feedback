@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-// import s from '../Statistics/Statistics.module.css';
+
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
-  <div className={s.statistics__container}>    
-    <h3 className={s.statistics__head}>Statistics</h3>
-    <ul className={s.statistics__list}>
+  <div >    
+    <h3 >Statistics</h3>
+    <ul>
       <li>Good: {good}</li>
       <li>Neutral: {neutral}</li>
       <li>Bad: {bad}</li>
