@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import css from './App.module.css'
 
 import { Statistics } from './Statistics/Statistics';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
@@ -33,7 +34,7 @@ export class App extends Component {
   render() {
     const { good, neutral, bad } = this.state;
     return (
-      <>
+      <div className={css.form}>
         <Section>
           <FeedbackOptions
             options={this.state}
@@ -52,7 +53,7 @@ export class App extends Component {
             />
           )}
         </Section>
-      </>
+      </div>
     );
   }
 }
