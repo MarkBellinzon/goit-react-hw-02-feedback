@@ -1,0 +1,13 @@
+.button {
+  display: inline;
+  font-size: 24px;
+  border-radius: 6px;
+  color: blueviolet;
+  font-style: normal;
+  background-color: rgb(194, 230, 227);
+}
+
+.form {
+  display: inline-flex;
+  gap: 10px;
+}
